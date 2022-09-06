@@ -1,0 +1,107 @@
+
+
+.circles {
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: darkblue;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+#circle1 {
+    animation: pulse 2s ease-in-out infinite;
+    animation-delay: 0s;
+}
+
+#circle2 {
+    animation: pulse 2s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+
+#circle3 {
+    animation: pulse 2s ease-in-out infinite;
+    animation-delay: 0.8s;
+}
+
+@keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+.divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 15px;    
+}
+
+
+.popup {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    background-color: blueviolet;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.popup:hover {
+    background:#53ea93;
+    box-shadow:
+    1px 1px darkgray,
+    2px 2px darkgray,
+    3px 3px darkgray,
+    4px 4px darkgray,
+    5px 5px darkgray;
+    transform: scale(1.05);
+  }
+
+p {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    margin-top: -10px;
+    width: 60px;
+    
+}
+
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */ 
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background: #d3039e; /* Синий цвет фона */
+    color: #000; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 0.8s; /* Время появления подсказки */
+} 
+
+[data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: 2em; /* Положение подсказки */
+}
