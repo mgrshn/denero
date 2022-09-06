@@ -17,4 +17,3 @@ class Singletone extends ParentClass implements InterfaceOne
         return self::$instance;
     }
 }
-
