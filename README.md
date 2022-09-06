@@ -5,3 +5,4 @@ this is repository with test-tasks.
 [second task](https://mgrshn.github.io/denero/second-task/)  
 [third task](https://mgrshn.github.io/denero/third-task/)  
 [fourth task](https://github.com/mgrshn/denero/blob/main/fourth-task/Singletone.php)  
+[fifth task](https://github.com/mgrshn/denero/blob/main/fifth-task/FifthTask.php)  
