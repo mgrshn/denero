@@ -44,12 +44,12 @@ function getMinPrice(object $item): string
 function formatPrice(int $price): string
 {
 	$price = (string) $price;
-	return preg_replace('/\B(?=(\d{3})+(?!\d))/', ',',$price);
+	return preg_replace('/\B(?=(\d{3})+(?!\d))/', ',', $price);
 }
 
 function getPriceFromObj(object $obj): int
 {
-  return $obj->price;
+	return $obj->price;
 }
 
 // demo
