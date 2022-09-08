@@ -28,13 +28,17 @@ function getMinPrice(object $item): string
 {
 	return formatprice(getPriceFromObj(min($item->prices)));
 	
-	//fixed code
-	/*$itemPricesArr = $item->prices;
+	//fixed and working code
+	/*
+
+	$itemPricesArr = $item->prices;
 	usort($itemPricesArr, function(object $a, object $b) {
 		return $a->price - $b->price;
 		});
 	$objWithMinPrice = $itemPricesArr[0];
-	return formatprice(getPriceFromObj($objWithMinPrice));*/
+	return formatprice(getPriceFromObj($objWithMinPrice));
+
+	*/
 }
 
 function formatPrice(int $price): string
