@@ -7,3 +7,4 @@ this is repository with test-tasks.
 [fourth task](https://github.com/mgrshn/denero/blob/main/fourth-task/Singletone.php)  
 [fifth task](https://github.com/mgrshn/denero/blob/main/fifth-task/FifthTask.php)  
 [sixth task](https://github.com/mgrshn/denero/blob/main/sixth-task/getMinPrice.php)  
+[seventh task](https://github.com/mgrshn/denero/blob/main/seventh-task/Item.php)  
