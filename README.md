@@ -8,3 +8,5 @@ this is repository with test-tasks.
 [fifth task](https://github.com/mgrshn/denero/blob/main/fifth-task/FifthTask.php)  
 [sixth task](https://github.com/mgrshn/denero/blob/main/sixth-task/getMinPrice.php)  
 [seventh task](https://github.com/mgrshn/denero/blob/main/seventh-task/Item.php)  
+[eighth task](https://github.com/mgrshn/denero/blob/main/eighth-task/eighth.sql)  
+[ninth task](https://github.com/mgrshn/denero/blob/main/ninth-task/ninth.sql)
